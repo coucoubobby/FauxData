@@ -35,8 +35,3 @@ read -p "Write username of a person: " username
 
     echo "Username found, stealing info..."
     generate_fake_info "$username"
-
-
-
-^G Help       ^O Write Out  ^F Where Is   ^K Cut
-^X Exit       ^R Read File  ^\ Replace    ^U Paste
