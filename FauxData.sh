@@ -19,8 +19,8 @@ generate_fake_info() {
     local id_card="$((RANDOM % 900000000 + 100000000))"
     local credit_card="$((RANDOM % 9000000000000000 + 100000000000))"
     local wifi_pass="$((RANDOM % 100000000))"
+    
     echo "Username: $username"
-
     echo "IP Address: $ip_address"
     echo "Phone Number: $phone_number"
     echo "ID Card: $id_card"
