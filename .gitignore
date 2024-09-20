@@ -1,0 +1,41 @@
+# Compiled files
+*.o
+*.out
+*.class
+
+# Dependency directories
+node_modules/
+vendor/
+*.egg-info/
+build/
+dist/
+
+# Python specific
+__pycache__/
+*.py[cod]
+
+# Termux specific
+/data/
+*.log
+*.tmp
+*.pid
+
+# Environment files
+.env
+*.env.local
+*.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~ 
+*.bak
+*.swp
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
