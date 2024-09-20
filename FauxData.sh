@@ -1,4 +1,3 @@
-GNU nano 8.2              FauxData
 #!/bin/bash
 
 # Clear the terminal
@@ -11,7 +10,7 @@ echo -e "\033[1;32m==============================\033[0m"
 
 #!/bin/bash
 
-# zInfos Tool
+# FauxData Tool
 
 generate_fake_info() {
     local username=$1
