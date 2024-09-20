@@ -4,11 +4,9 @@
 clear
 
 # Title
-echo -e "\033[1;32m==============================\033[0m]]"
-echo -e "\033[1;32m          FauxData            \033[0m]]"
-echo -e "\033[1;32m==============================\033[0m]]"
-
-#!/bin/bash
+echo -e "\033[1;32m==============================\033[0m"
+echo -e "\033[1;32m          FauxData            \033[0m"
+echo -e "\033[1;32m==============================\033[0m"
 
 # FauxData Tool
 
@@ -29,8 +27,8 @@ generate_fake_info() {
 }
 
 # Main script
-echo "Welcome To FauxData - Get Peoples Personal Info, please read the README.md of https://github.com/coucoubobby/FauxData before using."
-read -p "Write username of a person: " username
+echo "Welcome To FauxData - Get People's Personal Info. Please read the README.md at https://github.com/coucoubobby/FauxData before using."
+read -p "Write the username of a person: " username
 
-    echo "Username found, stealing info..."
-    generate_fake_info "$username"
+echo "Username found, stealing info..."
+generate_fake_info "$username"
